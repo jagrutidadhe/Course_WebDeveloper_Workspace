@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .nested-grid-item {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            background-color: lightgrey;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nested Grid</h1>
+    <div class="grid-main">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item nested-grid-item">
+            <div class="grid-item">Nested 1</div>
+            <div class="grid-item">Nested 2</div>
+        </div>
+        <div class="grid-item">Item 3</div>
+        <div class="grid-item">Item 4</div>
+    </div>
+</body>
+</html>

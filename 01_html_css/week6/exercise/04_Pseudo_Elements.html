@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .before-after::before {
+            content: "Before - ";
+            color: red;
+        }
+        .before-after::after {
+            content: " - After";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-elements</h1>
+    <p class="before-after">This is a paragraph.</p>
+</body>
+</html>

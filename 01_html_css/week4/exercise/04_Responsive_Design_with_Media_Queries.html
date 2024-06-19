@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .responsive-box{
+  border:solid 1px black;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+  .responsive-box {
+    flex-direction: column;
+  }
+}
+        
+    </style>
+</head>
+<body>
+    <div class="responsive-box">
+        This is responsive box.
+    </div>
+</body>
+</html>
