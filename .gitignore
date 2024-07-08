@@ -2,3 +2,4 @@ git_remote_set-url
 node_modules
 **/__pycache__
 
+git_clone_with_token.sh
