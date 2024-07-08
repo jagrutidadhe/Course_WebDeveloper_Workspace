@@ -1,1 +1,1 @@
-t remote add origin  https://jagrutidadhe123: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@github.com/jagrutidadhe123/Course_WebDeveloper_Workspace
+t remote add origin  https://jagrutidadhe@github.com/jagrutidadhe123/Course_WebDeveloper_Workspace
